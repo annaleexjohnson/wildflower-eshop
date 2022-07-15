@@ -1,0 +1,28 @@
+.checkout{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad{
+    width: 60vw;
+    height: 15vh;
+    background-color: black;
+    background-image: url('../images/background.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+.checkout__title{
+    margin-right: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.checkout__left{
+    display: flex;
+    flex-direction: column;
+}

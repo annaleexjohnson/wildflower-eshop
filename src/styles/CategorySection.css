@@ -1,0 +1,17 @@
+.categorySection{
+    width: 100%;
+}
+
+.categorySection__title{
+    text-align: center;
+    letter-spacing: 0.5rem;
+    background-color: #E9EDC9;
+    width: 100%;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+}

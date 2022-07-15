@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+.login__screenContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.login__logoTitle{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Splash', cursive;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    border: 0;
+    color: black;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > p {
+    width: 22rem;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form > h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.login__formInput{
+    height: 2rem;
+    padding: none;
+    border: 0.1rem solid #E2E2E2;
+}
+
+.login__signInButton{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #D4A373;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.login__signInButton:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.login__screenImage{
+    width: 50vw;
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.login__registerButton{
+    margin-top: 2rem;
+    border: none;
+    background-color: #CCD5AE;
+    font-family: inherit;
+    padding: 0.3rem 0;
+}
+
+.login__registerButton:hover{
+    opacity: 0.7;
+}

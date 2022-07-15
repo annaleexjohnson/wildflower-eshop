@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.banner__itemOne{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    background-color: #CCD5AE;
+    margin-left: 3rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.banner__title{
+    margin-left: 8rem;
+}
+
+
+.showNowButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    height: 2.5rem;
+    width: 8rem;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.showNowButton:hover{
+    opacity: 60%;
+    transition: 100ms ease-in;
+}
+
+.banner__itemTwo{
+    width: 50%;
+    height: 70vh;
+    margin-right: 3rem;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__image {
+    width: 100%;
+}
+
+.link, .link:focus, .link:active{
+    text-decoration: none;
+    color: inherit;
+  }

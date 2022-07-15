@@ -1,0 +1,33 @@
+.checkoutProduct {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
+
+.checkoutProduct__info{
+    padding-left: 1rem;
+}
+
+.checkoutProduct__remove{
+    color: #737862;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.checkoutProduct__remove:hover{
+    color: #D4A373;
+    transition: 150ms ease-in-out;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__title{
+    font-size: 17px;
+    font-weight: 800;
+}
