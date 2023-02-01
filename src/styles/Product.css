@@ -46,6 +46,7 @@
 .addToCart:hover{
     background-color: #CCD5AE;
     transition: 150ms ease-in;
+    cursor: pointer;
 }
 
 .product__price{
