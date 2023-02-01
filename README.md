@@ -1,6 +1,14 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## About
+
+This project was intended to practice updating a state in React by adding and removing things from an online shopping cart. The other features of the website, such as login/sign-up, payment screen, etc., have not been finalized.
+
+
+https://user-images.githubusercontent.com/87035551/216191231-c4975373-09c5-4acc-a6e3-902680a3fe02.mov
+
+
+
 
 ## Available Scripts
 
